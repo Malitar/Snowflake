@@ -26,7 +26,10 @@ module.exports = {
 				gothic: [
 					'Gothic A1'
 				]
-			}
+			},
+			screens: {
+				'4k': '3840px' ,
+			},
 		},
 	},
 	plugins: [],

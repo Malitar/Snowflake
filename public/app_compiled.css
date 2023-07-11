@@ -765,9 +765,9 @@ video {
   line-height: 2.5rem;
 }
 
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-black{
@@ -808,11 +808,6 @@ video {
   .md\:justify-end{
     justify-content: flex-end;
   }
-
-  .md\:text-purple-400{
-    --tw-text-opacity: 1;
-    color: rgb(192 132 252 / var(--tw-text-opacity));
-  }
 }
 
 @media (min-width: 1280px){
@@ -834,6 +829,18 @@ video {
 
   .xl\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 3840px){
+  .\34k\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\34k\:text-purple-400{
+    --tw-text-opacity: 1;
+    color: rgb(192 132 252 / var(--tw-text-opacity));
   }
 }
 
