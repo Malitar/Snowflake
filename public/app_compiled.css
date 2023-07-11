@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/** Custom Styles has to be first included */
+
 /* ******************************
  * INCLUDE FONTS                *
  ****************************** */
@@ -7,6 +9,41 @@
 /* ******************************
  * INCLUDE CUSTOM STYLINGS      *
  ****************************** */
+
+.btn-default{
+  cursor: pointer;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 10 10 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-default:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.btn-default-extend{
+  --tw-bg-opacity: 1;
+  background-color: rgb(136 136 131 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(226 226 213 / var(--tw-text-opacity));
+}
 
 .card-container{
   display: grid;
@@ -71,7 +108,7 @@
  * INCLUDE TAILWIND'S DEFAULT *
  **************************** */
 
-/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -649,10 +686,6 @@ video {
   gap: 2rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
 .border-b{
   border-bottom-width: 1px;
 }
@@ -669,11 +702,6 @@ video {
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-secondary-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(136 136 131 / var(--tw-bg-opacity));
 }
 
 .object-cover{
@@ -770,11 +798,6 @@ video {
 .text-purple-900{
   --tw-text-opacity: 1;
   color: rgb(88 28 135 / var(--tw-text-opacity));
-}
-
-.text-secondary-100{
-  --tw-text-opacity: 1;
-  color: rgb(226 226 213 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){

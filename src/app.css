@@ -1,3 +1,4 @@
+/** Custom Styles has to be first included */
 /* ******************************
  * INCLUDE FONTS                *
  ****************************** */
@@ -8,6 +9,7 @@
  * INCLUDE CUSTOM STYLINGS      *
  ****************************** */
 
+@import "./framework/partials/button.css";
 @import "./framework/partials/card.css";
 
 /* ****************************
