@@ -1,3 +1,7 @@
+.card-container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
 .card {
     @apply bg-white rounded overflow-hidden shadow-md relative my-2;
 }
