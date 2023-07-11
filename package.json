@@ -1,0 +1,17 @@
+{
+	"name": "snowflake",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build-css": "tailwindcss build -i src/app.css -o public/app_compiled.css && tailwindcss -i public/app_compiled.css -o public/app_minify.css --minify",
+		"watch-css": "tailwindcss -i src/app.css -o public/app_compiled.css --watch",
+		"minify-css": "tailwindcss -i public/app_compiled.css -o public/app_minify.css --minify"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.3.2"
+	}
+}

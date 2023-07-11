@@ -1,0 +1,21 @@
+/* ******************************
+ * INCLUDE FONTS                *
+ ****************************** */
+
+@import "./fonts/gothicA1.css";
+
+/* ******************************
+ * INCLUDE CUSTOM STYLINGS      *
+ ****************************** */
+
+@import "./framework/partials/card.css";
+
+/* ****************************
+ * INCLUDE TAILWIND'S DEFAULT *
+ **************************** */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
