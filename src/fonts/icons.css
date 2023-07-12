@@ -1,4 +1,4 @@
 .clock{
     background: url(./assets/icon/clock.svg);
-    @apply w-5 h-5 inline-block;
+    @apply w-6 h-6 inline-block;
 }

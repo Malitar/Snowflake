@@ -9,6 +9,7 @@ module.exports = {
 		"./src/**/*.{html,js}",
 		"./public/**/*.{html,js}" /** important that you get your files correctly! */
 	],
+  	darkMode: 'class', // or 'media'
 	/**
 	 * theme dient dazu Erweiterungen, wie etwa spezielle Farben dem 'core' hinzu zufügen
 	 * just follow 'tailwind-default.config.js' syntax
